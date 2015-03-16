@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% block head %}
+            <title>Annex Precision {% block title %}{% endblock %}</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="">
+            <meta name="keywords" content="Insomniac Technology">
+            <meta name="author" content="Insomiac.Technology">
+            <meta name="copyright" content="All Rights Reserved. Insomniac Technology 2015">
+            <meta charset="utf-8">
+        
+            <!-- Favicon -->
+            <link rel="shortcut icon" href="favicon.ico">
+        
+            <!-- Web Fonts -->
+            <link rel='stylesheet' type='text/css' href='/static/css/fonts.css'>
+        
+            <!-- CSS Global Compulsory -->
+            <link rel="stylesheet" href="/static/plugins/bootstrap/css/bootstrap.min.css">
+            <link rel="stylesheet" href="/static/css/one.style.css">
+        
+            <!-- CSS Footer -->
+            <link rel="stylesheet" href="/static/css/footers/footer-v7.css">
+        
+            <!-- CSS Implementing Plugins -->
+            <link rel="stylesheet" href="/static/plugins/animate.css">
+            <link rel="stylesheet" href="/static/plugins/line-icons/line-icons.css">
+            <link rel="stylesheet" href="/static/plugins/font-awesome/css/font-awesome.min.css">
+            <link rel="stylesheet" href="/static/plugins/pace/pace-flash.css">
+            <link rel="stylesheet" href="/static/plugins/owl-carousel/owl.carousel.css">
+            <link rel="stylesheet" href="/static/plugins/cube-portfolio/cubeportfolio/css/cubeportfolio.min.css">
+            <link rel="stylesheet" href="/static/plugins/cube-portfolio/cubeportfolio/custom/custom-cubeportfolio.css">
+            <link rel="stylesheet" href="/static/plugins/revolution-slider/rs-plugin/css/settings.css" type="text/css" media="screen">
+            <!--[if lt IE 9]><link rel="stylesheet" href="/static/plugins/revolution-slider/rs-plugin/css/settings-ie8.css" type="text/css" media="screen"><![endif]-->
+        
+            <!-- CSS Theme -->
+            <link rel="stylesheet" href="/static/css/theme-skins/one.dark.css">
+        
+            <!-- CSS Customization -->
+            <link rel="stylesheet" href="/static/css/custom.css">
+
+        {% endblock %}
+    </head>
+
+    <body id="body" data-spy="scroll" data-target=".one-page-header" class="demo-lightbox-gallery dark">
+
+        {% block navbar %}
+            <!--=== Header ===-->
+            <nav class="one-page-header navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="menu-container page-scroll">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <a class="navbar-brand" href="#intro">
+                            <span>U</span>nify
+                            <!-- <img src="assets/img/logo1.png" alt="Logo"> -->
+                        </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-ex1-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav">
+                                <li class="page-scroll home">
+                                    <a href="/">Home</a>
+                                </li>
+                                <li class="page-scroll">
+                                    <a href="/about">About Us</a>
+                                </li>
+                                <li class="page-scroll">
+                                    <a href="/services">Services</a>
+                                </li>
+                                </li>
+                                <li class="page-scroll">
+                                    <a href="/contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container -->
+            </nav>
+            <!--=== End Header ===-->
+        {% endblock %}  <!--=== End Navbar block ===-->
+
+        {%  block content %}
+
+        {% endblock %}
+
+
+        {% block footer %}
+            <div class="footer">
+                <!-- JS Global Compulsory -->
+                <script type="text/javascript" src="/static/plugins/jquery/jquery.min.js"></script>
+                <script type="text/javascript" src="/static/plugins/jquery/jquery-migrate.min.js"></script>
+                <script type="text/javascript" src="/static/plugins/bootstrap/js/bootstrap.min.js"></script>
+                <!-- JS Implementing Plugins -->
+                <script type="text/javascript" src="/static/plugins/smoothScroll.js"></script>
+                <script type="text/javascript" src="/static/plugins/jquery.easing.min.js"></script>
+                <script type="text/javascript" src="/static/plugins/pace/pace.min.js"></script>
+                <script type="text/javascript" src="/static/plugins/jquery.parallax.js"></script>
+                <script type="text/javascript" src="/static/plugins/counter/waypoints.min.js"></script>
+                <script type="text/javascript" src="/static/plugins/counter/jquery.counterup.min.js"></script>
+                <script type="text/javascript" src="/static/plugins/owl-carousel/owl.carousel.js"></script>
+                <script type="text/javascript" src="/static/plugins/sky-forms-pro/skyforms/js/jquery.form.min.js"></script>
+                <script type="text/javascript" src="/static/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js"></script>
+                <script type="text/javascript" src="/static/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+                <script type="text/javascript" src="/static/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+                <script type="text/javascript" src="/static/plugins/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
+                <!-- JS Page Level-->
+                <script type="text/javascript" src="/static/js/one.app.js"></script>
+                <script type="text/javascript" src="/static/js/forms/login.js"></script>
+                <script type="text/javascript" src="/static/js/forms/contact.js"></script>
+                <script type="text/javascript" src="/static/js/plugins/pace-loader.js"></script>
+                <script type="text/javascript" src="/static/js/plugins/owl-carousel.js"></script>
+                <script type="text/javascript" src="/static/js/plugins/revolution-slider.js"></script>
+                <script type="text/javascript" src="/static/js/plugins/cube-portfolio/cube-portfolio-lightbox.js"></script>
+                <script type="text/javascript">
+                    jQuery(document).ready(function() {
+                        App.init();
+                        App.initCounter();
+                        App.initParallaxBg();
+                        LoginForm.initLoginForm();
+                        ContactForm.initContactForm();
+                        OwlCarousel.initOwlCarousel();
+                        RevolutionSlider.initRSfullScreen();
+                    });
+                </script>
+                <!--[if lt IE 9]>
+                    <script src="/static/plugins/respond.js"></script>
+                    <script src="/static/plugins/html5shiv.js"></script>
+                    <script src="/static/js/plugins/placeholder-IE-fixes.js"></script>
+                    <script src="/static/plugins/sky-forms-pro/skyforms/js/sky-forms-ie8.js"></script>
+                <![endif]-->
+
+                <!--[if lt IE 10]>
+                    <script src="/static/plugins/sky-forms-pro/skyforms/js/jquery.placeholder.min.js"></script>
+                <![endif]-->
+
+            </div>
+        {% endblock %}
+    </body>
+</html>
